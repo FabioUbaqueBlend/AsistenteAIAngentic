@@ -1,0 +1,37 @@
+# === Entorno Virtual ===
+venv/
+.venv/
+env/
+bin/
+lib/
+share/
+Include/
+
+# === Variables de Entorno (SEGURIDAD CRÍTICA) ===
+.env
+.env.local
+.env.*
+# No borrar: esto evita que tus llaves de AWS se suban a GitHub
+
+# === Python Cache ===
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# === Archivos Generados por el Agente ===
+# (Evitamos subir archivos que el agente crea en cada ejecución)
+*.db
+*.png
+*.csv
+resultado_grafico.png
+ventas_reporte.csv
+
+# === IDEs y Editores ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log

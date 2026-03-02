@@ -1,0 +1,6 @@
+langchain-aws
+langgraph
+pandas
+matplotlib
+python-dotenv
+boto3
